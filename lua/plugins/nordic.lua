@@ -3,9 +3,9 @@ return {
 	lazy = false,
 	priority = 1000,
 	config = function()
-		require("nordic").load({
-			bold_keywords = true,
-			italic_comments = false,
-		})
+		--require("nordic").load({
+		--	bold_keywords = true,
+		--	italic_comments = false,
+		--})
 	end,
 }
