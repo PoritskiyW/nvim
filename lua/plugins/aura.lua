@@ -4,8 +4,8 @@ return {
 		lazy = false,
 		priority = 1000,
 		config = function(plugin)
-			vim.opt.rtp:append(plugin.dir .. "/packages/neovim")
-			vim.cmd([[colorscheme aura-soft-dark]])
+			--			vim.opt.rtp:append(plugin.dir .. "/packages/neovim")
+			--			vim.cmd([[colorscheme aura-soft-dark]])
 		end,
 	},
 }
